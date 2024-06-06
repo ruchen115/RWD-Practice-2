@@ -1,0 +1,175 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        
+        link(href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800;900&display=swap" rel="stylesheet")
+
+        link(rel="stylesheet", href="reset.css")
+        link(rel="stylesheet", href="all.css")
+
+        title 切版任務二
+
+
+header 
+    nav
+        .nav-content.container 
+            img.logo(src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/logo.svg", alt="Noel")
+            ul.menu
+                li.menu-item 首頁
+                li.menu-item 作品集
+                li.menu-item 服務項目 
+                li.menu-item 部落格
+                li.menu-item 聯絡我
+            img.menu-icon(src="pic/google material icon-menu.svg", alt="Noel")
+    .selfintro
+        .inrto-content
+            h1 Hi！我是 Noel
+            h6 具有 10 年經驗的資深 UI 設計師兼前端工程師技術雙修並行，熱衷於優化使用者的網頁體驗
+            P.tag WEB DEVELOPMENT / BRANDING / UI / UX / APP DESIGN
+            ul.social
+                li.social-icon
+                    img(src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/instagram.svg", alt="IG")
+                li.social-icon
+                    img(src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/facebook.svg", alt="FB")
+                li.social-icon
+                    img(src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/youtube.svg", alt="YT")
+        .self-image
+            picture 
+                source(media="(min-width: 376px)", srcset="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/hero-lg.png?raw=true")
+                
+                img(src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/hero-sm.png?raw=true", alt="img")
+
+main
+    section.work-introduction
+        h2 作品介紹
+        ul.works
+            li.work.work-01
+                .work-content.container
+                    .work-pic
+                        img(src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1.png?raw=true", alt="work1")
+                    .work-intro
+                        .work-text
+                            h3.work-title 星際旅行訂票平台
+                            p 悠遊宇宙的夢想，從這裡開始實現
+                            ul.tags
+                                li.tag 網頁設計
+                                li.tag 響應式設計
+                                li.tag Bootstrap
+                        button
+                            h5 完整介紹
+                            img(src="pic/google material icon.svg", alt="go")
+                        
+            li.work.work-02
+                .work-bg
+                .work-content.container
+                    .work-pic
+                    .work-intro
+                        .work-text
+                            h3.work-title 理財APP
+                            p 連動帳戶與行動支付，讓 AI 提供您最好的理財建議
+                            ul.tags
+                                li.tag APP設計
+                                li.tag iOS
+                                li.tag React
+                        button
+                            h5 完整介紹
+                            img(src="pic/google material icon.svg", alt="go")
+            li.work.work-03
+                .work-content.container
+                    .work-pic
+                        img(src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work3.png?raw=true", alt="work3")
+                    .work-intro
+                        .work-text
+                            h3.work-title 醫美診所官網
+                            p 永保青春的秘密，從粹究開始
+                            ul.tags
+                                li.tag 網頁設計
+                                li.tag 響應式設計
+                                li.tag WordPress
+                        button
+                            h5 完整介紹
+                            img(src="pic/google material icon.svg", alt="go")
+    
+    section.service-introduction
+        
+        .container
+            h2 服務項目 
+            ul.services
+                li.service-item
+                    .service-item-icon
+                        img(src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/service-item-visual.svg", alt="visual")
+                    h3 平面設計
+                li.service-item
+                    .service-item-icon 
+                        img(src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/service-item-ui.svg", alt="UI")
+                    h3 UI 設計
+                li.service-item
+                    .service-item-icon
+                        img(src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/service-item-html%26css.svg", alt="Html&CSS")
+                    h3 切版服務
+                li.service-item
+                    .service-item-icon
+                        img(src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/service-item-front-end.svg", alt="front-end")
+                    h3 前端開發
+            h3 想要合作或瞭解更多？
+            button 
+                h5 詳細內容與合作流程
+                img(src="pic/google material icon.svg", alt="go")
+
+    section.featured-articles
+        h2 精選文章
+        .container
+            ul.articles
+                li.article-item
+                    img(src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image1.png?raw=true", alt="cover")
+                    .article-info
+                        h5 Vision Pro 登場！Vision Pro UI/UX 設計重點大公開 (上)
+                        .article-detail
+                            .tag UI/UX 新知
+                            p 2024/02/10
+                li.article-item
+                    img(src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image2.png?raw=true", alt="cover")
+                    .article-info
+                        h5 給設計師和工程師的 Figma-Dev Mode 開發模式使用指南 (下)
+                        .article-detail
+                            .tag UI/UX 新知
+                            p 2023/11/20
+                li.article-item
+                    img(src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image3.png?raw=true", alt="cover")
+                    .article-info
+                        h5 給設計師和工程師的 Figma-Dev Mode 開發模式使用指南 (上)
+                        .article-detail
+                            .tag UI/UX 新知
+                            p 2023/10/18
+            .slide-dots 
+                .dot.dot-dark
+                .dot 
+                .dot 
+                .dot 
+                .dot 
+            button.btn-article
+                h5 更多文章
+                img(src="pic/google material icon.svg", alt="go")
+
+footer 
+    .footer-content.container
+        .footer-infos
+            img.logo(src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/logo.svg", alt="Noel")
+            h6 若有數位產品設計和開發相關問題
+            h6 歡迎填寫表單，或直接與我聯絡！
+            p.email service@hexschool.com
+        ul.buttons
+            li
+                button.btn-dark
+                    img(src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/list.svg", alt="list")
+                    h6 填寫表單
+            li 
+                button 
+                    img(src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/instagram.svg", alt="IG")
+                    h6 hexschool_demo
+            li
+                button 
+                    img(src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/facebook.svg", alt="FB")
+                    h6 hexschoolTW

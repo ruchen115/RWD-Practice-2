@@ -1,0 +1,540 @@
+// COLOR
+$primary-900: #000
+$primary-800: #1E1E1E
+$primary-700: #3B3B3B
+$primary-600: #5B5B5B
+$primary-500: #919191
+$primary-400: #C1C1C1
+$primary-300: #E9E9E9
+$primary-200: #F1F1F1
+$primary-100: #FAFAFA
+$primary-50: #FFF
+
+
+*
+    position: relative
+
+body
+    font-family: 'Noto Sans TC', sans-serif
+
+
+h1
+    font-size: 40px
+    font-weight: 600
+    line-height: 1.2
+h2
+    font-size: 32px
+    font-weight: 600
+h3
+    font-size: 28px
+    font-weight: 700
+    line-height: 1.2
+h4
+    font-size: 28px
+    font-weight: 600
+h5
+    font-size: 20px
+    font-weight: 700
+    line-height: 1.2
+h6
+    font-size: 20px
+    font-weight: 400
+    line-height: 1.5
+p
+    font-size: 16px
+    font-weight: 400
+    line-height: 24px
+
+
+img
+    max-width: 100%
+    height: auto
+    object-fit: contain
+
+button
+    border: none
+
+
+.container
+    max-width: 1320px
+    margin: 0 auto
+    padding: 0 12px
+
+header
+    nav
+        padding: 28px 0px
+        border-bottom: solid 1px $primary-200
+        .nav-content
+            display: flex
+            align-items: center
+            justify-content: center
+            ul
+                display: flex
+                gap: 40px
+                margin: 0 auto
+                .menu-item
+                    line-height: 24px
+                    padding: 4px 8px
+            .menu-icon
+                display: none
+    .selfintro
+        display: flex
+        justify-content: flex-end
+        gap: 24px
+        align-items: center
+        .inrto-content
+            max-width: 22.4%
+            padding-left: 12px
+            margin: 0px 12px
+            h1
+                margin-bottom: 24px
+                color: $primary-700
+            h6
+                margin-bottom: 16px
+                color: $primary-600
+            .tag
+                color: $primary-400
+                margin-bottom: 60px
+            ul
+                display: flex
+                gap: 16px
+        .self-image
+            max-width: 60.1%
+main
+    section
+        padding: 120px 0px
+    h2
+        margin-bottom: 80px
+        text-align: center
+        color: $primary-700
+    .work-introduction
+        padding-bottom: 0px
+        .work
+            max-width: 100%
+            height: auto
+        .work-01
+            background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true)
+            background-size: cover
+            background-position: center
+            .work-pic
+                img
+                    margin-top: 80px
+        .work-02
+            background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work2-lg.png?raw=true)
+            background-size: cover
+            background-position: center
+            height: 800px
+            .work-bg
+                position: absolute
+                background-color: rgba( #0A101380, 0.5 )
+                height: 100%
+                width: 49.3%
+            .work-content
+                top: 50%
+                transform: translateY(-50%)
+                justify-content: start
+            
+        .work-03
+            background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work3-bg.png?raw=true)
+            background-size: cover
+            background-position: center
+            background-color: rgba( #0D0C0780, 0.5 )
+            background-blend-mode: multiply
+            .work-pic
+                margin-top: 176px
+                margin-bottom: 112px
+        .work-content
+            display: flex
+            justify-content: space-between
+            align-items: center
+            gap: 55px
+            
+            .work-intro
+                max-width: 526px
+                width: 40%
+                background-color: rgba( $primary-50, 0.1 )
+                border-radius: 24px
+                // padding: 80px 40px 56px 40px
+                margin: auto 0
+
+                display: flex
+                flex-wrap: wrap
+                justify-content: center
+                .work-text
+                    width: 100%
+                    padding-bottom: 40px
+                    margin: 80px 40px 40px
+
+                    border-bottom: solid 1px $primary-200 
+                    h3,p
+                        color: $primary-50
+                    h3
+                        margin-bottom: 8px
+                    p
+                        margin-bottom: 24px
+                    ul
+                        display: flex
+                        gap: 16px
+                        flex-wrap: wrap
+                        .tag
+                            padding: 4px 12px
+                            border-radius: 16px
+                            background-color: $primary-50
+                            color: $primary-700
+                            line-height: 24px
+                button
+                    display: flex
+                    background-color: $primary-900
+                    padding: 16px 32px
+                    border-radius: 5px
+                    align-items: center
+                    margin-bottom: 56px
+                    h5
+                        color: $primary-50
+                        margin-right: 8px
+                   
+    .service-introduction
+        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-services-bg.png?raw=true)
+        max-width: 100%
+        height: auto
+        background-size: cover
+        background-position: center
+        ul
+            display: flex
+            gap: 24px
+            justify-content: center
+            .service-item
+                background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/service-item-bg.png?raw=true)
+                aspect-ratio: 1/1
+                width: 100%
+                background-size: cover
+                border-radius: 16px
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                gap: 24px
+                h3
+                    color: $primary-50
+                    line-height: 1.5
+                    margin: 0
+        h3
+            text-align: center
+            margin: 80px auto 40px
+        button
+            display: flex
+            background-color: $primary-900
+            padding: 16px 32px
+            border-radius: 5px
+            align-items: center
+            margin: 0 auto
+            h5
+                color: $primary-50
+                margin-right: 8px
+
+    .featured-articles
+        ul
+            display: flex
+            gap: 24px
+            margin-bottom: 40px
+            .article-item
+                width: 100%
+                img
+                    max-width: 100%
+                    border-radius: 8px
+                    margin-bottom: 16px
+                .article-info
+                    padding: 0 8px
+                    h5
+                        width: 100%
+                        margin-bottom: 16px
+                    .article-detail
+                        display: flex
+                        justify-content: space-between
+                        .tag
+                            padding: 4px 12px
+                            border-radius: 16px
+                            background-color: $primary-200
+                            color: $primary-700
+                            line-height: 24px
+                        p
+                            color: $primary-600
+        .slide-dots
+            display: flex
+            justify-content: center
+            gap: 16px
+            .dot
+                width: 12px
+                height: 12px
+                border-radius: 100%
+                background-color: $primary-300
+            .dot-dark
+                background-color: $primary-900
+        button
+            display: none
+        
+
+
+footer
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-lg.png?raw=true)
+    padding: 80px 0
+    .footer-content
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .footer-infos
+            .logo
+                margin-bottom: 24px
+            h6
+                color: $primary-700
+            p
+                font-size: 20px
+                color: $primary-500
+                margin-top: 24px
+        ul
+            display: flex
+            flex-wrap: wrap
+            max-width: 306px
+            // justify-content: center
+            // align-items: stretch
+            li
+                width: 100%
+            button
+                width: 100%
+                display: flex
+                padding: 8px 24px
+                border-radius: 8px
+                align-items: center
+                gap: 8px
+
+                background-color: $primary-50
+                border: solid 1px $primary-400
+
+                margin-top: 24px
+                
+                h6
+                    color: $primary-700
+            .btn-dark
+                background-color: $primary-900
+                border: none
+                margin-top: 0
+                h6
+                    font-weight: 700
+                    color: $primary-50
+                
+
+@media screen and ( max-width: 992PX )
+    header
+        .selfintro
+            flex-direction: column-reverse
+            gap: 0px
+            .inrto-content
+                max-width: 100%
+                padding-left: 0px
+                text-align: center
+                margin: 40px 53.5px
+                .tag
+                    margin-bottom: 24px
+                ul
+                    justify-content: center
+                    .social-icon
+                        width: 40px
+            .self-image
+                max-width: 100%
+    main
+        section
+            padding: 80px 0px
+        h2
+            margin-bottom: 40px
+        .work-introduction
+            padding-top: 40px
+            padding-bottom: 80px
+
+            .work
+                margin-bottom: 48px
+            .work-pic
+                background-size: cover
+                background-position: center
+                aspect-ratio: 25/26
+                display: flex
+                justify-content: center
+                padding: 0 24px
+            .work-01
+                background-image: none
+                .work-pic
+                    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true)
+                    img
+                        margin-top: 93px
+            .work-02
+                background-image: none
+                height: auto
+                .work-bg
+                    display: none
+                .work-pic
+                    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work2-lg.png?raw=true)
+                
+                .work-content
+                    top: initial
+                    transform: initial
+                    
+            .work-03
+                background-image: none
+                background-color: initial
+                margin-bottom: 0
+                .work-pic
+                    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work3-bg.png?raw=true)
+                    background-color: rgba( #0D0C0780, 0.5 )
+                    background-blend-mode: multiply
+                    margin: 0
+                    img
+                        margin: auto
+            .work-content
+                display: initial
+                
+                .work-intro
+                    max-width: 100%
+                    width: 100%
+                    background-color: initial
+                    border-radius: 0px
+                    margin: 0
+                    text-align: center
+
+                    .work-text
+                        padding: 0
+                        margin: 24px 24px 20px
+                        border-bottom: none
+                        h3
+                            color:$primary-800
+                        p
+                            color: $primary-600
+                            margin-bottom: 16px
+                        ul
+                            gap: 8px
+                            justify-content: center
+                            .tag
+                                background-color: $primary-200
+                    button
+                        // padding: 8px 16px
+                        margin: 0
+                        h5
+        .service-introduction
+            ul
+                flex-wrap: wrap
+                margin: 0 34.5px
+                .service-item
+                    width: calc( 50% - 24px )
+                    h3
+                    
+            h3
+                margin: 40px auto 24px
+            button
+                // padding: 8px 16px
+                h5
+
+        .featured-articles
+            ul
+                flex-wrap: wrap
+                gap: 48px
+                justify-content: center
+                .article-item
+                    width: auto
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    img
+                        max-width: 416px
+                        width: 100%
+                    .article-info
+                        max-width: 416px
+                        width: 100%
+            .slide-dots
+                display: none
+            .btn-article
+                display: flex
+                background-color: $primary-900
+                padding: 16px 32px
+                border-radius: 5px
+                align-items: center
+                margin: 0 auto
+                h5
+                    color: $primary-50
+                    margin-right: 8px
+
+@media screen and ( max-width: 767PX )
+    h1
+        font-size: 32px
+        font-weight: 700
+    h2
+        font-size: 24px
+        font-weight: 700
+        line-height: 1.2
+    h3
+        font-size: 20px
+    h5
+        font-size: 16px
+        line-height: 1.5
+
+    header
+        nav
+            padding: 8px 0px
+            .nav-content
+                justify-content: space-between
+                .logo
+                    width: 74px
+                ul
+                    display: none
+                .menu-icon
+                    display: initial
+    main
+        .work-introduction
+            .work-content                
+                .work-intro
+                    button
+                        padding: 8px 16px
+                        
+        .service-introduction
+            background-image: none
+            background-color: $primary-100
+            ul
+                .service-item
+                    width: 100%
+            button
+                padding: 8px 16px
+
+        .featured-articles
+            .btn-article
+                padding: 8px 16px
+
+    footer
+        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-sm.png?raw=true)
+        background-size: cover
+        background-position: center
+        padding: 40px 0
+        .footer-content
+            display: initial
+            text-align: center
+            .footer-infos
+                margin-bottom: 40px
+                .logo
+                    width: 120px
+                h6
+                    font-size: 16px
+                p
+                    font-size: 16px
+            ul
+                margin: 0 auto
+                button
+                    padding: 4px 24px
+                
+        
+
+
+                     
+        
+            
+
+        
+        
+
+
+
