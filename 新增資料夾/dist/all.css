@@ -1,0 +1,614 @@
+* {
+  position: relative;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+header nav {
+  padding: 28px 0px;
+  border-bottom: solid 1px #F1F1F1;
+}
+header nav .nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .nav-content ul {
+  display: flex;
+  gap: 40px;
+  margin: 0 auto;
+}
+header nav .nav-content ul .menu-item {
+  line-height: 24px;
+  padding: 4px 8px;
+}
+header nav .nav-content .menu-icon {
+  display: none;
+}
+header .selfintro {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+  align-items: center;
+}
+header .selfintro .inrto-content {
+  max-width: 22.4%;
+  padding-left: 12px;
+  margin: 0px 12px;
+}
+header .selfintro .inrto-content h1 {
+  margin-bottom: 24px;
+  color: #3B3B3B;
+}
+header .selfintro .inrto-content h6 {
+  margin-bottom: 16px;
+  color: #5B5B5B;
+}
+header .selfintro .inrto-content .tag {
+  color: #C1C1C1;
+  margin-bottom: 60px;
+}
+header .selfintro .inrto-content ul {
+  display: flex;
+  gap: 16px;
+}
+header .selfintro .self-image {
+  max-width: 60.1%;
+}
+
+main section {
+  padding: 120px 0px;
+}
+main h2 {
+  margin-bottom: 80px;
+  text-align: center;
+  color: #3B3B3B;
+}
+main .work-introduction {
+  padding-bottom: 0px;
+}
+main .work-introduction .work {
+  max-width: 100%;
+  height: auto;
+}
+main .work-introduction .work-01 {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true);
+  background-size: cover;
+  background-position: center;
+}
+main .work-introduction .work-01 .work-pic img {
+  margin-top: 80px;
+}
+main .work-introduction .work-02 {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work2-lg.png?raw=true);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+main .work-introduction .work-02 .work-bg {
+  position: absolute;
+  background-color: rgba(10, 16, 19, 0.5);
+  height: 100%;
+  width: 49.3%;
+}
+main .work-introduction .work-02 .work-content {
+  top: 50%;
+  transform: translateY(-50%);
+  justify-content: start;
+}
+main .work-introduction .work-03 {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work3-bg.png?raw=true);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(13, 12, 7, 0.5);
+  background-blend-mode: multiply;
+}
+main .work-introduction .work-03 .work-pic {
+  margin-top: 176px;
+  margin-bottom: 112px;
+}
+main .work-introduction .work-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 55px;
+}
+main .work-introduction .work-content .work-intro {
+  max-width: 526px;
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  margin: auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .work-introduction .work-content .work-intro .work-text {
+  width: 100%;
+  padding-bottom: 40px;
+  margin: 80px 40px 40px;
+  border-bottom: solid 1px #F1F1F1;
+}
+main .work-introduction .work-content .work-intro .work-text h3, main .work-introduction .work-content .work-intro .work-text p {
+  color: #FFF;
+}
+main .work-introduction .work-content .work-intro .work-text h3 {
+  margin-bottom: 8px;
+}
+main .work-introduction .work-content .work-intro .work-text p {
+  margin-bottom: 24px;
+}
+main .work-introduction .work-content .work-intro .work-text ul {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+main .work-introduction .work-content .work-intro .work-text ul .tag {
+  padding: 4px 12px;
+  border-radius: 16px;
+  background-color: #FFF;
+  color: #3B3B3B;
+  line-height: 24px;
+}
+main .work-introduction .work-content .work-intro button {
+  display: flex;
+  background-color: #000;
+  padding: 16px 32px;
+  border-radius: 5px;
+  align-items: center;
+  margin-bottom: 56px;
+}
+main .work-introduction .work-content .work-intro button h5 {
+  color: #FFF;
+  margin-right: 8px;
+}
+main .service-introduction {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-services-bg.png?raw=true);
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+main .service-introduction ul {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+main .service-introduction ul .service-item {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/service-item-bg.png?raw=true);
+  aspect-ratio: 1/1;
+  width: 100%;
+  background-size: cover;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+main .service-introduction ul .service-item h3 {
+  color: #FFF;
+  line-height: 1.5;
+  margin: 0;
+}
+main .service-introduction h3 {
+  text-align: center;
+  margin: 80px auto 40px;
+}
+main .service-introduction button {
+  display: flex;
+  background-color: #000;
+  padding: 16px 32px;
+  border-radius: 5px;
+  align-items: center;
+  margin: 0 auto;
+}
+main .service-introduction button h5 {
+  color: #FFF;
+  margin-right: 8px;
+}
+main .featured-articles ul {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+main .featured-articles ul .article-item {
+  width: 100%;
+}
+main .featured-articles ul .article-item img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+main .featured-articles ul .article-item .article-info {
+  padding: 0 8px;
+}
+main .featured-articles ul .article-item .article-info h5 {
+  width: 100%;
+  margin-bottom: 16px;
+}
+main .featured-articles ul .article-item .article-info .article-detail {
+  display: flex;
+  justify-content: space-between;
+}
+main .featured-articles ul .article-item .article-info .article-detail .tag {
+  padding: 4px 12px;
+  border-radius: 16px;
+  background-color: #F1F1F1;
+  color: #3B3B3B;
+  line-height: 24px;
+}
+main .featured-articles ul .article-item .article-info .article-detail p {
+  color: #5B5B5B;
+}
+main .featured-articles .slide-dots {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+main .featured-articles .slide-dots .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background-color: #E9E9E9;
+}
+main .featured-articles .slide-dots .dot-dark {
+  background-color: #000;
+}
+main .featured-articles button {
+  display: none;
+}
+
+footer {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-lg.png?raw=true);
+  padding: 80px 0;
+}
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-content .footer-infos .logo {
+  margin-bottom: 24px;
+}
+footer .footer-content .footer-infos h6 {
+  color: #3B3B3B;
+}
+footer .footer-content .footer-infos p {
+  font-size: 20px;
+  color: #919191;
+  margin-top: 24px;
+}
+footer .footer-content ul {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 306px;
+}
+footer .footer-content ul li {
+  width: 100%;
+}
+footer .footer-content ul button {
+  width: 100%;
+  display: flex;
+  padding: 8px 24px;
+  border-radius: 8px;
+  align-items: center;
+  gap: 8px;
+  background-color: #FFF;
+  border: solid 1px #C1C1C1;
+  margin-top: 24px;
+}
+footer .footer-content ul button h6 {
+  color: #3B3B3B;
+}
+footer .footer-content ul .btn-dark {
+  background-color: #000;
+  border: none;
+  margin-top: 0;
+}
+footer .footer-content ul .btn-dark h6 {
+  font-weight: 700;
+  color: #FFF;
+}
+
+@media screen and (max-width: 992PX) {
+  header .selfintro {
+    flex-direction: column-reverse;
+    gap: 0px;
+  }
+  header .selfintro .inrto-content {
+    max-width: 100%;
+    padding-left: 0px;
+    text-align: center;
+    margin: 40px 53.5px;
+  }
+  header .selfintro .inrto-content .tag {
+    margin-bottom: 24px;
+  }
+  header .selfintro .inrto-content ul {
+    justify-content: center;
+  }
+  header .selfintro .inrto-content ul .social-icon {
+    width: 40px;
+  }
+  header .selfintro .self-image {
+    max-width: 100%;
+  }
+
+  main section {
+    padding: 80px 0px;
+  }
+  main h2 {
+    margin-bottom: 40px;
+  }
+  main .work-introduction {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+  main .work-introduction .work {
+    margin-bottom: 48px;
+  }
+  main .work-introduction .work-pic {
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 25/26;
+    display: flex;
+    justify-content: center;
+    padding: 0 24px;
+  }
+  main .work-introduction .work-01 {
+    background-image: none;
+  }
+  main .work-introduction .work-01 .work-pic {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true);
+  }
+  main .work-introduction .work-01 .work-pic img {
+    margin-top: 93px;
+  }
+  main .work-introduction .work-02 {
+    background-image: none;
+    height: auto;
+  }
+  main .work-introduction .work-02 .work-bg {
+    display: none;
+  }
+  main .work-introduction .work-02 .work-pic {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work2-lg.png?raw=true);
+  }
+  main .work-introduction .work-02 .work-content {
+    top: initial;
+    transform: initial;
+  }
+  main .work-introduction .work-03 {
+    background-image: none;
+    background-color: initial;
+    margin-bottom: 0;
+  }
+  main .work-introduction .work-03 .work-pic {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work3-bg.png?raw=true);
+    background-color: rgba(13, 12, 7, 0.5);
+    background-blend-mode: multiply;
+    margin: 0;
+  }
+  main .work-introduction .work-03 .work-pic img {
+    margin: auto;
+  }
+  main .work-introduction .work-content {
+    display: initial;
+  }
+  main .work-introduction .work-content .work-intro {
+    max-width: 100%;
+    width: 100%;
+    background-color: initial;
+    border-radius: 0px;
+    margin: 0;
+    text-align: center;
+  }
+  main .work-introduction .work-content .work-intro .work-text {
+    padding: 0;
+    margin: 24px 24px 20px;
+    border-bottom: none;
+  }
+  main .work-introduction .work-content .work-intro .work-text h3 {
+    color: #1E1E1E;
+  }
+  main .work-introduction .work-content .work-intro .work-text p {
+    color: #5B5B5B;
+    margin-bottom: 16px;
+  }
+  main .work-introduction .work-content .work-intro .work-text ul {
+    gap: 8px;
+    justify-content: center;
+  }
+  main .work-introduction .work-content .work-intro .work-text ul .tag {
+    background-color: #F1F1F1;
+  }
+  main .work-introduction .work-content .work-intro button {
+    margin: 0;
+  }
+  main .service-introduction ul {
+    flex-wrap: wrap;
+    margin: 0 34.5px;
+  }
+  main .service-introduction ul .service-item {
+    width: calc( 50% - 24px );
+  }
+  main .service-introduction h3 {
+    margin: 40px auto 24px;
+  }
+  main .featured-articles ul {
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: center;
+  }
+  main .featured-articles ul .article-item {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .featured-articles ul .article-item img {
+    max-width: 416px;
+    width: 100%;
+  }
+  main .featured-articles ul .article-item .article-info {
+    max-width: 416px;
+    width: 100%;
+  }
+  main .featured-articles .slide-dots {
+    display: none;
+  }
+  main .featured-articles .btn-article {
+    display: flex;
+    background-color: #000;
+    padding: 16px 32px;
+    border-radius: 5px;
+    align-items: center;
+    margin: 0 auto;
+  }
+  main .featured-articles .btn-article h5 {
+    color: #FFF;
+    margin-right: 8px;
+  }
+}
+@media screen and (max-width: 767PX) {
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  header nav {
+    padding: 8px 0px;
+  }
+  header nav .nav-content {
+    justify-content: space-between;
+  }
+  header nav .nav-content .logo {
+    width: 74px;
+  }
+  header nav .nav-content ul {
+    display: none;
+  }
+  header nav .nav-content .menu-icon {
+    display: initial;
+  }
+
+  main .work-introduction .work-content .work-intro button {
+    padding: 8px 16px;
+  }
+  main .service-introduction {
+    background-image: none;
+    background-color: #FAFAFA;
+  }
+  main .service-introduction ul .service-item {
+    width: 100%;
+  }
+  main .service-introduction button {
+    padding: 8px 16px;
+  }
+  main .featured-articles .btn-article {
+    padding: 8px 16px;
+  }
+
+  footer {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-sm.png?raw=true);
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+  }
+  footer .footer-content {
+    display: initial;
+    text-align: center;
+  }
+  footer .footer-content .footer-infos {
+    margin-bottom: 40px;
+  }
+  footer .footer-content .footer-infos .logo {
+    width: 120px;
+  }
+  footer .footer-content .footer-infos h6 {
+    font-size: 16px;
+  }
+  footer .footer-content .footer-infos p {
+    font-size: 16px;
+  }
+  footer .footer-content ul {
+    margin: 0 auto;
+  }
+  footer .footer-content ul button {
+    padding: 4px 24px;
+  }
+}
